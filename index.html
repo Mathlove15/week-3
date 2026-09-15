@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      id="viewport"
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+    <title>Week 3: Pac-Man Canvas and melonJS</title>
+  </head>
+
+  <body>
+    <main class="game-page">
+      <h1>Week 3: Pac-Man Canvas and melonJS</h1>
+
+      <div class="game-layout">
+        <section class="game-panel">
+          <h2>Pac-Man Canvas</h2>
+          <p id="pacman-coordinates">X: 80 | Y: 80</p>
+          <canvas
+            id="pacman-canvas"
+            width="560"
+            height="562"
+            aria-label="Pac-Man game"
+          ></canvas>
+          <p>Use the arrow keys to move Pac-Man.</p>
+        </section>
+
+        <section class="game-panel">
+          <h2>melonJS Workspace</h2>
+          <div id="screen"></div>
+        </section>
+      </div>
+    </main>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
